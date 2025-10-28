@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0a7" />
+  <title>Kuis Pengetahuan ASI | ASI Edu</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/img/icon-192.png">
+  <link rel="apple-touch-icon" href="/img/icon-192.png">
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">ASI Edu</a>
+    <nav class="nav">
+      <a href="/">Beranda</a>
+      <a href="/modules/module1.html">Modul</a>
+      <a href="/privacy.html">Privasi</a>
+      <a href="/about.html">Tentang</a>
+    </nav>
+  </header>
+  <main class="container">
+    
+<article class="card">
+  <h1>Kuis Pengetahuan ASI</h1>
+  <p>10 pertanyaan pilihan ganda. Hasil tidak menggantikan saran tenaga kesehatan.</p>
+  <form id="quiz-form" class="quiz">
+    <div class="q">
+      <p>1. Kolostrum bermanfaat terutama untuk...</p>
+      <label><input type="radio" name="q1" value="a"> Warna kulit</label>
+      <label><input type="radio" name="q1" value="b" data-correct="1"> Imunitas bayi</label>
+      <label><input type="radio" name="q1" value="c"> Berat badan ibu</label>
+    </div>
+    <div class="q">
+      <p>2. Peletakan bayi yang benar ditandai dengan...</p>
+      <label><input type="radio" name="q2" value="a" data-correct="1"> Mulut terbuka lebar & dagu menempel</label>
+      <label><input type="radio" name="q2" value="b"> Hanya ujung puting masuk</label>
+      <label><input type="radio" name="q2" value="c"> Kepala bayi menoleh jauh</label>
+    </div>
+    <div class="q">
+      <p>3. Tambahan air putih untuk bayi &lt; 6 bulan...</p>
+      <label><input type="radio" name="q3" value="a"> Diperlukan saat cuaca panas</label>
+      <label><input type="radio" name="q3" value="b" data-correct="1"> Tidak diperlukan</label>
+      <label><input type="radio" name="q3" value="c"> Hanya malam hari</label>
+    </div>
+    <button type="submit" class="btn primary">Kirim Jawaban</button>
+  </form>
+  <div id="quiz-result" class="result hidden" aria-live="polite"></div>
+  <div class="nav-row">
+    <a class="btn" href="/">⬅ Kembali</a>
+  </div>
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <p>&copy; Kuis Pengetahuan ASI — Dibuat untuk edukasi ASI. Versi <span id="app-version"></span></p>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
